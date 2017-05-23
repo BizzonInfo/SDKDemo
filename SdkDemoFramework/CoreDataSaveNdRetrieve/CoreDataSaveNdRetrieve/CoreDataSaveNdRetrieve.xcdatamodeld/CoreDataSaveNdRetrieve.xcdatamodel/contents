@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16E195" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Detail" representedClassName="Detail" syncable="YES" codeGenerationType="class">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="designation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="employee_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="employeeName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Employees" representedClassName="Employees" syncable="YES" codeGenerationType="class">
+        <attribute name="employee_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="employName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="team_id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Person" representedClassName="Person" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="team_id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Detail" positionX="198" positionY="-54" width="128" height="105"/>
+        <element name="Employees" positionX="360" positionY="-90" width="128" height="90"/>
+        <element name="Person" positionX="34" positionY="-72" width="128" height="75"/>
+    </elements>
+</model>
