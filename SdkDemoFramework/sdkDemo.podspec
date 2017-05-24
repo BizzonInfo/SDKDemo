@@ -8,14 +8,14 @@
 
 Pod::Spec.new do |s|
   s.name         = 'SdkDemo'
-  s.version      = '3.1.1'
+  s.version      = '3.1.2'
   s.license  = { :type => 'BSD', :text => 'Copyright (C) 2010 Apple Inc. All Rights Reserved.' }
   s.homepage     = 'https://github.com/BizzonInfo/SDKDemo'
   s.authors      = { 'Abiram' => 'jvabiram@gmail.com' }
   s.summary      = 'ARC and GCD Compatible .'
-  s.source       = { :git => 'https://github.com/BizzonInfo/SDKDemo.git'}
+# s.source       = { :git => 'https://github.com/BizzonInfo/SDKDemo.git':tag => 1.0}
+  s.source       = { :git => 'https://github.com/BizzonInfo/SDKDemo.git', :tag => "3.1.2"}
   s.source_files = "SdkDemoFramework/**/*.{h,m}"
-  s.framework    = 'SdkDemo'
   s.platform = :ios
   s.platform = :osx
   s.ios.deployment_target = "5.0"
